@@ -11,8 +11,7 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a>
+  <a href="#how-to-use">How To Use</a> 
 </p>
 
 ## Key Features
@@ -29,12 +28,11 @@ To clone and run this application, you'll need [Git](https://git-scm.com). From 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/oli-wan-kenobi/AdvancedText2SpeechEditor/
 
-# Go into the repository
-$ cd AdvancedText2SpeechEditor
+# Opent he project with an editor
 
-
+# run it in terminal
 ```
 
 ---
