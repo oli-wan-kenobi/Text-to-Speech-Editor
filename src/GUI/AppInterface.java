@@ -16,8 +16,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import commands.CommandsFactory;
-import commands.ReplayManager;
-
 import javax.swing.JButton;
 import javax.swing.JToolBar;
 import javax.swing.JTextField;

@@ -3,8 +3,6 @@ package commands;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import GUI.AppInterface;
-
 public class RecordAudio implements ActionListener {
 
 	private ReplayManager replayManager;

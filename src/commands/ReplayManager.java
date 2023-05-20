@@ -28,7 +28,6 @@ public class ReplayManager implements ActionListener {
 	private static int getRow = 0, maxgetRow = 0;
 	private static Object[] row = new Object[7] ;
 	private static int registers;
-	private boolean replayed = false;
 	
 	public ReplayManager() {
 		commands = new ArrayList<ActionListener>();
@@ -114,8 +113,6 @@ public class ReplayManager implements ActionListener {
 				// TODO Auto-generated method stub	
 			}	
 		});
-			
-		replayed = false;
 	}
 
 	public String replay() {
@@ -136,8 +133,6 @@ public class ReplayManager implements ActionListener {
 		PlayAudio.txtfields[0].setText(String.valueOf(start));
 		PlayAudio.txtfields[1].setText(String.valueOf(lineTo));
 		tmp.actionPerformed(null);
-		
-		replayed = true;
 		
 		return text;
 	}
